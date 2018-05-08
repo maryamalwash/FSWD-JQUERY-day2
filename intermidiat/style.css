@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+div {
+    width: 20%;
+    height: 20vw;
+    border: dotted pink ;
+    padding: 2vw ;
+    margin: 4vw;
+    
+}
+#cart{
+    overflow: scroll;
+    width: 40%;
+    height: 50vw;
+    border : 6px solid black ;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
