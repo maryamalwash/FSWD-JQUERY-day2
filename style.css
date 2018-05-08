@@ -1,12 +1,21 @@
 
 body{
 	text-align: center;
+	align-items: center;
 }
-img{
+img {
 	width:10vw;
 	height: 10vw;
 	margin: 5vw;
     box-shadow: 2px 2px 5px grey ;
 }
+table  {
+	text-align: center;
+	border: dotted pink;
+	margin: 0 auto ;
 
+}
 
+td{
+	border: dotted pink;
+}

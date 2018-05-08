@@ -13,7 +13,7 @@ $("document").ready(function(){
 	$(".heading2").text("the name is..bells")
     })
 
-
+//sameh
 
 
 
@@ -31,6 +31,11 @@ $("document").ready(function(){
 	$('.bell').on('click',function(){
 		$('.name').remove();
 	$('.result').append('<h3 class=name >bell</h3>') 
+    })
+
+    // basic 2 
+    $('.hide').on('click' , function(){
+    $(this).hide();
     })
 });
  
